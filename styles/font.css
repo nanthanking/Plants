@@ -1,0 +1,178 @@
+/*Familjen-Grotesk font imported below*/
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500&display=swap');
+/*Quicksand font imported below*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+/*Belleza font imported below*/
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+/*Lora font imported below*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+/*Aeonik font imported below*/
+@font-face {
+    font-family:'Aeonik';
+    src: url(/assets/fonts/AeonikTRIAL-Bold.otf);
+}
+@font-face {
+    font-family:'Aeonik';
+    src: url(/assets/fonts/AeonikTRIAL-Light.otf);
+}
+@font-face {
+    font-family:'Aeonik';
+    src: url(/assets/fonts/AeonikTRIAL-Regular.otf);
+}
+/* Whole part - fonts*/
+header,footer{
+    Font-family: Quicksand;
+}
+.button-styling{
+    font-family: 'Aeonik';
+    font-weight: 500;
+}
+
+/*(1) hero banner section - fonts*/
+.hero-banner-left-part>h1{
+    font-family: 'Belleza';
+    font-weight: 400;
+    font-size: 5.2rem;
+    letter-spacing: -0.5px;
+}
+.hero-banner-left-part>button{
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem; 
+}
+.about-hero-banner>.first-line{
+    font-size: 1.5rem;
+    font-family: 'Aeonik';
+    font-weight: 500;
+}
+.about-hero-banner>.second-line{
+    font-size: 1rem;
+    font-family: 'Aeonik';
+    font-weight: 250;
+    color: var(--primary-font-color);
+}
+.about-hero-banner>.third-line{
+    font-size: 2.25rem;
+    font-family: 'Aeonik';
+    font-weight: 900;
+    font-size: 2.25rem;
+}
+/* <----------------2) PARAGRAPH-SECTION - FONTS-----------------> */
+.paragraphs-section>.paragraphs>.para-one{
+    font-family: Aeonik;
+    font-size: 1.375rem;
+    font-weight: 250;
+    line-height: 29px;
+}
+.paragraphs-section>.paragraphs>.para-two{
+    font-family: Lora;
+    font-weight: 500;
+    font-size: 1.475rem;
+    line-height: 40px;
+}
+.learn-more-division>h1{
+    font-family: 'Aeonik';
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+/* <----------------3) SUB-BANNER-SECTION - FONTS-----------------> */
+.words-inside:first-child{
+    font-family: 'Aeonik';
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 24px;
+}
+.words-inside>:nth-child(2){
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+/*--------------------4) SHOP-SECTION - FONTS------------------------*/
+.shop-section>h5{
+    font-family: 'Aeonik';
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.shop-section>.words-with-button>:first-child{
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 3rem;
+}
+.amount{
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+/*--------------------5) REVIEWS-SECTION - FONTS------------------------*/
+.reviews-part-1:nth-child(1){
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.reviews-part-1>:nth-child(2){
+    font-family: 'Aeonik';
+    font-weight: 250;
+    font-size: 1rem;
+    line-height: 19px;
+}
+.reviews-part-1>p>span{
+    font-family: 'Aeonik';
+    font-weight: 400;
+    font-size: .9rem;
+}
+.reviews-part-2>h3{
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+}
+/*--------------------6) AUTHOR-SECTION - FONTS------------------------*/
+.author-section>.author-details>h3{
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.author-section>.author-details>p{
+    font-family:'Aeonik';
+    font-weight: 250;
+    font-size: 1rem;
+}
+/*--------------------8) FINAL-IMAGE-SECTION - FONTS------------------------*/
+.final-image-section>div>h1{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 61px;
+}
+.final-image-section>div>p{
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 1rem;
+    line-height: 19px;
+}
+.checkItOut-section{
+    display: flex;
+    align-items: center;
+}
+.checkItOut-section>h4{
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
+/*--------------------9) FINAL-SECTION - FONTS------------------------*/
+
+.final-section>h1{
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 2.2rem;
+}

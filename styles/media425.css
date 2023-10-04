@@ -1,0 +1,319 @@
+/* <-------------------------------MEDIA QUERY--------------------------------> */
+@media (max-width: 425px) {
+        
+    /* ---------------------------HEADER CONTAINER STYLES------------------------- */
+    .header-container-wrapper{
+        height: 87px;
+    }
+    .header-nav-wrapper{
+        padding: auto 2.291%;
+        height: 87px;
+    }
+    .header-nav-wrapper>.right-nav-section{
+        width: 30%;
+        align-items: center;
+    }
+    .search-icon-size{
+        width: .951rem;
+        height: .951rem;
+    }
+    .profile-icon-size{
+        width: .938rem;
+        height: .938rem;
+    }
+    
+    .cart-icon-size{
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    /*----------------hamburger style------------------*/
+    .hamburger {
+        position: absolute;
+        z-index: 100;
+        top: 1.75rem;
+        right: 1rem;
+        padding: 4px;
+        border: none;
+        background: white;
+        cursor: pointer;
+    }
+    .material-icons{
+        margin-top: 3px;
+    font-size: 20px !important;
+}
+
+
+    /* ------------------------MAIN CONTAINER STYLES------------------------- */
+
+    /* <------------------------1) FIRST-SECTION--------------------------> */
+    .hero-banner-section{
+        height: 300px;
+    }
+    .hero-banner-left-part>h1{
+        font-size: 1.8rem;
+        padding-top: 15px;
+    }
+    .hero-banner-left-part>button{
+        height: 26.13px;
+        width: 30%;
+        padding: 5px 0px;
+        font-size: 0.606rem;
+        margin-top: 15px;
+    }
+    .about-hero-banner{
+        margin-top: 50px;
+    }
+    .about-hero-banner>.first-line{
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    .first-line>span{
+        display: none;
+    }
+    .about-hero-banner>.second-line{
+        margin-top: 15px;
+        font-size: .625rem;
+    }
+    .about-hero-banner>.third-line{
+        margin-top: 40px;
+        font-size: 0.625rem;
+        width: 70%;
+    }
+    .about-hero-banner>.third-line>h1{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    /* <----------------------------2) SECOND-SECTION----------------------------> */
+    .paragraphs-section{
+        margin-top: 40px;
+    }
+    .paragraphs-section>.paragraphs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 5%;
+        margin-left: 5%;
+    }
+    .paragraphs-section>.paragraphs>.para-one{
+        font-size: 0.75rem;
+        font-weight: 250;
+        line-height: 25px;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .paragraphs-section>.paragraphs>.para-two{
+        margin: 0 auto;
+        margin-top: 20px;
+        font-family: Lora;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 30px;
+        width: 95%;
+    }
+    .learn-more-division{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .learn-more-division>h1{
+        font-size: 0.75rem;
+    }
+    .icon-near-learn-more-heading{
+        width: 24px;
+        height: 24px;
+    }
+    .learn-more-division>.icon-near-learn-more-heading>a>img{
+        width: 100%;
+        height: 100%;
+    }
+    /* <--------------------------3) THIRD-SECTION--------------------------> */
+    .sub-banner-section{
+        position: relative;
+        height: 290px;
+        margin-top: 2rem;
+        z-index: 1;
+    }
+    .image-on-hand-wrapper{
+        width: 100%;
+        height: 200px;
+    }
+    .image-on-hand-wrapper>img{
+        width: 100%;
+        height: 200px;
+    }
+    .image-backside-section{
+        height: 130px;
+        position: absolute;
+        top: 100px;
+    }
+    .words-inside>p{
+        font-size: 0.6rem;
+        line-height: 24px;
+        width: 10%;
+    }
+    .words-inside>.everything_word{
+        width: 70%;
+        font-size: .9rem;
+    }
+    .arrow-beside-banner-image{
+        width: 1rem;
+        height: 1rem;
+    }
+    .arrow-beside-banner-image>img{
+        width: 100%;
+        height: 100%;
+    }
+    /*------------------------------4) SHOP-SECTION------------------------------------*/
+    
+    .shop-section>h5{
+        margin-top: 0;
+        font-size: 0.438rem;
+    }
+    .words-with-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .shop-section>.words-with-button>:first-child{
+        margin-top: 22px;
+        font-size: 1.25rem;
+    }
+    .shop-section>.words-with-button>button{
+        font-size: .7rem;
+        height: 28px;
+        width: 25%;
+    }
+    .photos{
+        max-height: 348px;
+        width: 260px;
+        margin-right: 20px;
+    }
+    /*-----------------------------5) REVIEW-SECTION----------------------------------*/
+
+    .reviews-section{
+        display: flex;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .reviews-part-1,.reviews-part-2,.reviews-part-3{
+        width: 100%;
+    }
+    .reviews-part-3{
+        padding-bottom: 50px;
+    }
+    .reviews-part-1>p>span{
+        display: none;
+    }
+    .star-with-number{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .reviews-part-1>h3{
+        font-size: 0.625rem;
+    }
+    .reviews-part-1>h3+p{
+        width:65%;
+        font-size: 0.438rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .reviews-part-2>h3{
+        line-height: 30px;
+        display: flex;
+        text-align: center;
+        font-size: 1rem;
+        padding: 30px;
+    }
+    .reviews-part-3{
+        padding: 0;
+    }
+    .reviews-part-3>.arrow-images{
+        width: 100%;
+    }
+    .review-section-arrow-icon{
+        width: 29.17px;
+        height: 29.17px;
+    }
+    .review-section-arrow-icon>img{
+        width: 100%;
+        height: 100%;
+    }
+    .arrow-images{
+        display: flex;
+        justify-content: end;
+        padding-left: 80%;
+    }
+    /*-------------------------------6) AUTHOR-SECTION-------------------------------*/
+    .author-section{
+        text-align: left;
+        position: relative;
+        margin-left: 5%;
+        margin-top: -18px;
+    }
+    .author-section>.author-details>h3{
+        font-size: 1rem;
+    }
+    .author-section>.author-details>p{
+        font-size: 0.75rem;
+    }
+    .author-details{
+        padding-left: 30px;
+        margin-top: -30px;
+    }
+    .arrow-images{
+        display: flex;
+        justify-content: end;
+        width: 11%;
+        margin-left: auto;
+    }
+    /*--------------------7) TWO-IMAGES-SECTION------------------------*/
+    .two-images-section{
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        justify-content: space-between;
+    }
+    .two-images-section>.first-image{
+        width: 38%;
+    }
+    .two-images-section>.second-image{
+        width: 58%;
+    }
+    /*----------------------------8) FINAL-IMAGE-SECTION-------------------------------*/
+    .final-image-section{
+        height: 243px;
+        padding: 40px;
+    }
+    .final-image-section>div>h1{
+        font-size: 1.3rem;
+        line-height: 25px;
+    }
+    .final-image-section>div>p{
+        font-size: .6rem;
+        line-height: 19px;
+    }
+    .checkItOut-section>h4{
+        font-size: .8rem;
+    }
+    /*--------------------------------9) FINAL-SECTION----------------------------------*/
+    .final-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .final-section>h1{
+        width: 100%;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+}
